@@ -17,7 +17,7 @@ export class CommentsComponent implements OnInit {
      this.data1 = data;
    })
    setTimeout(()=>{
-     this.click();
+     this.click(); 
    },2000)
  }
  click()
