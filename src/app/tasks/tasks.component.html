@@ -1,5 +1,5 @@
 <h1>LISTS</h1>
-<input type = "search" [(ngModel)] = "Searching"  placeholder="Search"> &nbsp;
+<input type = "search" placeholder="Search"> &nbsp;
 <button (click)="display()">DISPLAY</button>&nbsp;
 <button [routerLink] = "['../add']">ADD</button>&nbsp;
 <button [routerLink] = "['../dash']">DASHBOARD</button><br><br>
@@ -10,7 +10,7 @@
         <th>TITLE</th>
         <th>COMPLETED</th>
     </thead>
-    <tr *ngFor = "let a of data1 | filter : Searching">
+    <tr *ngFor = "let a of data1">
         <td>{{a.userId}}</td>
         <td>{{a.id}}</td>
         <td>{{a.title}}</td>
