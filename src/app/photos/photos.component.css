@@ -1,0 +1,20 @@
+div{
+    border: gray 1px;
+    padding-left:45px;    
+    width:600px;
+    padding-top: 30px;
+    box-shadow: 5px 5px 5px 5px #888888;
+    margin-left: 30px;
+    height:300px;
+}
+button{
+    height:40px;
+    width:150px;
+    transition-duration: 0.4s;
+    background-color: white;
+    color: black;
+    border: 2px solid gray;
+}
+button:hover{
+    background-color: gray;
+}

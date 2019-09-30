@@ -1,0 +1,19 @@
+<h1>LISTS</h1>
+<input type = "search" [(ngModel)] = "Search"  placeholder="Search"> &nbsp;
+<button (click)="display()">DISPLAY</button>&nbsp;
+<button [routerLink] = "['../add']">ADD</button>&nbsp;
+<button [routerLink] = "['../dash']">DASHBOARD</button><br><br>
+<table>
+    <thead>
+        <th>USER_ID</th>
+        <th>ID</th>
+        <th>TITLE</th>
+        <th>COMPLETED</th>
+    </thead>
+    <tr *ngFor = "let a of data1 | filter : Search">
+        <td>{{a.userId}}</td>
+        <td>{{a.id}}</td>
+        <td>{{a.title}}</td>
+        <td>{{a.completed}}</td>
+    </tr>
+</table>

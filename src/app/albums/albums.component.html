@@ -1,0 +1,15 @@
+<h1>ALBUMS</h1>
+<table>
+    <thead>
+        <th>USERID</th>
+        <th>ID</th>
+        <th>TITLE</th>
+        <th>Photos</th>
+    </thead>
+    <tr *ngFor = "let a of data1">
+        <td>{{a.userId}}</td>
+        <td>{{a.id}}</td>
+        <td>{{a.title}}</td>
+        <td><button (click) = "next(a.id)">Photos</button></td>
+    </tr>
+</table>

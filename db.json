@@ -1,0 +1,38 @@
+{
+  "posts": [
+    {
+      "name": "Raji",
+      "age": 21,
+      "edu": "BE",
+      "id": 2
+    },
+    {
+      "name": "AKSHATHA",
+      "age": 22,
+      "edu": "BE-CSE",
+      "id": 3
+    },
+    {
+      "name": "SHRI",
+      "age": 21,
+      "edu": "BE",
+      "id": 4
+    },
+    {
+      "name": "gurmeet",
+      "age": 35,
+      "edu": "acting",
+      "id": 6
+    },
+    {
+      "name": "nayak",
+      "age": 56,
+      "edu": "10th",
+      "id": 7
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}

@@ -1,0 +1,23 @@
+
+body{
+    border: gray 1px;
+    text-align: center;
+    width:350px;
+    margin-top:70px;
+    margin-left:35%;
+    box-shadow: 5px 10px 10px 10px #888888;
+    height: 200px;
+}
+button{
+    height:40px;
+    width:100px;
+    transition-duration: 0.4s;
+    background-color: white;
+    color: black;
+    border: 2px solid gray;
+}
+button:hover{
+    background-color: gray;
+}
+
+ 

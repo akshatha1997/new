@@ -1,0 +1,14 @@
+body{
+    border: gray 1px;
+    text-align: center;
+    width:400px;
+    margin-top:15px;
+    margin-left:35%;
+    box-shadow: 5px 10px 10px 10px #888888;
+}
+label{
+    margin-left: 2px;
+}
+input{
+    align-content: center;
+}

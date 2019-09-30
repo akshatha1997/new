@@ -1,0 +1,17 @@
+<h1>To Day Newspaper</h1>
+<div *ngFor="let data of totalData" (click)="tonextPage(data)" id="a">
+    <img id="b" src="{{data.profile_image}}">
+    <h3 (click)="add(description)">{{data.alias}}<p>{{data.data1}}</p>
+    </h3>
+    <p>{{data.shortDescription}}</p>
+    <p>{{data.reportedBy}}:{{data.reportedDate}}</p>
+    <br>
+</div>
+
+<!-- <div id="a">
+        <img src="{{apidata.profile_image}}">
+        <h3 (click)="add(description)">{{apidata.alias}}<p
+            >{{apidata.data1}}</p></h3>
+        <p>{{apidata.shortDescription}}</p>
+        <p>{{apidata.reportedBy}}:{{apidata.reportedDate}}</p>   
+</div> -->

@@ -1,0 +1,18 @@
+table,tr{
+    border: 1px solid gray
+}
+h1{
+    text-align: center;
+}
+button{
+    height:40px;
+    font-size: 12px;
+    width:100px;
+    transition-duration: 0.4s;
+    background-color: white;
+    color: black;
+    border: 2px solid gray;
+}
+button:hover{
+    background-color: gray;
+}

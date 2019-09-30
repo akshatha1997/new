@@ -1,0 +1,9 @@
+table,th,td,tr{
+    border: 1px solid gray
+}
+h1{
+    text-align: center;
+}
+th{
+    text-align: center;
+}

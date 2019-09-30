@@ -1,0 +1,12 @@
+<body>
+    <h1>LOGIN PAGE</h1>
+    <form [formGroup]="login">
+        <label>Email</label><br>
+        <input type="email"  placeholder="" formControlName="email"><br><br>
+        <label>Password</label><br>
+        <input type="password"  placeholder="" formControlName="password"><br><br>
+        <button type="submit" (click)="registerlogin(login.value)">Submit</button><br><br>
+    </form>
+</body>
+
+
